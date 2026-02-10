@@ -1,42 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <title>Happy Teddy Day Ritika 🧸❤️</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <div class="hearts"></div>
+  <!-- Music -->
+  <audio id="bgMusic" loop>
+    <source src="soft-music.mp3" type="audio/mp3">
+  </audio>
+
+  <div class="overlay"></div>
 
   <div class="card">
-    <h1 class="title">Happy Teddy Day</h1>
-    <h2 class="name">Ritika ❤️</h2>
+    <h1>Happy Teddy Day</h1>
+    <h2>Ritika ❤️</h2>
 
     <div class="teddy">🧸</div>
 
-    <p class="message">
-      This teddy carries my hugs,<br>
-      warmth, and all the love I can't send right now.
+    <p class="intro">
+      I couldn’t send you a teddy,<br>
+      so I sent you my heart… digitally 💕
     </p>
 
-    <button id="surpriseBtn">Click for a Surprise 💝</button>
+    <!-- BUTTONS -->
+    <button onclick="showVideo()">🎥 CLICK ME</button>
+    <div id="videoBox" class="hidden">
+      <video controls>
+        <source src="our-video.mp4" type="video/mp4">
+      </video>
+    </div>
 
-    <p id="surpriseText">
-      Just like this teddy,<br>
-      I promise to stay by your side,<br>
-      in every smile, every tear,<br>
-      today and always 🤍
+    <button onclick="showPhotos()">🖼️ CLICK ME TOO</button>
+    <div id="photoBox" class="hidden gallery">
+      <img src="photo1.jpg">
+      <img src="photo2.jpg">
+      <img src="photo3.jpg">
+    </div>
+
+    <button onclick="showShayari()">✨ CLICK HERE AGAIN</button>
+    <p id="shayari" class="hidden shayari">
+      “Ek teddy sirf ek nishani hai,<br>
+      mera dil toh hamesha tumhare paas hai.” 🤍
     </p>
 
-    <footer>
-      — Yours forever<br>
-      <strong>Abishua</strong>
-    </footer>
+    <button onclick="startPoem()">🤍 READ THIS, RITIKA</button>
+    <div id="poemBox" class="hidden poem">
+      <p id="typedPoem"></p>
+    </div>
+
+    <button onclick="finalMessage()">🥹 ONE LAST CLICK</button>
+    <p id="finalText" class="hidden final">
+      Tumhara hona hi kaafi hai,<br>
+      baaki duniya baad mein…<br><br>
+      Always yours,<br>
+      Abishua ❤️
+    </p>
   </div>
 
+  <script src="poem.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
