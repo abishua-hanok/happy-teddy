@@ -1,15 +1,25 @@
-# 🧸 Happy Teddy Day ❤️
+# 🧸 Happy Teddy Day, Ritika ❤️
 
-A romantic Teddy Day surprise website made with love.
+This is a small, heartfelt website created as a Teddy Day surprise.
 
-### 💖 For:
-Ritika
+It’s not just a page —
+it’s a collection of moments, memories, and emotions,
+wrapped together with love.
 
-### ✨ Features
-- Animated romantic background
-- Teddy animation
-- Surprise emotional message
-- Mobile-friendly
-- Hosted on GitHub Pages
+---
 
-Made with 🤍 by Abishua
+## 🌸 What’s inside
+
+- 🎥 A special video memory  
+- 🖼️ Our favorite photos  
+- ✨ A short shayari  
+- 📝 A poem written from the heart (with slow typing animation)  
+- 🎶 Soft background music for a cinematic feel  
+
+Each section opens step by step,
+just the way feelings do.
+
+---
+
+## 🗂️ Project Structure
+
